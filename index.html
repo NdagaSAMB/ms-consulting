@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Consulting - Expert en consulting informatique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.svg" alt="MS Consulting" class="logo-svg">
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="expertise.html">Expertise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <a href="contact.html" class="cta-button">Nous contacter ></a>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-header">
+            <div class="mobile-nav-logo">
+                <img src="images/logo.svg" alt="MS Consulting">
+                MS Consulting
+            </div>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="expertise.html">Expertise</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="contact.html" class="cta-button">Nous contacter ></a>
+        </div>
+    </div>
+    
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay"></div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="tagline">
+                    <div class="tagline-dot"></div>
+                    <span class="tagline-text">Expert en consulting informatique</span>
+                </div>
+                
+                <h1>
+                    Votre partenaire pour la<br>
+                    <span class="highlight">transformation digitale</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Nous accompagnons les entreprises et startups dans leur évolution technologique avec expertise, innovation et une approche sur mesure pour chaque projet.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn-primary">
+                        Nous contacter →
+                    </a>
+                    <a href="services.html" class="btn-secondary">
+                        Découvrir nos services
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics fade-in-on-scroll">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card scale-in-on-scroll">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-text">Années d'expérience</div>
+                    </div>
+                    <div class="stat-card scale-in-on-scroll">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-text">Projets réalisés</div>
+                    </div>
+                    <div class="stat-card scale-in-on-scroll">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-text">Clients satisfaits</div>
+                    </div>
+                    <div class="stat-card scale-in-on-scroll">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-text">Taux de satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expertise Section -->
+        <section class="expertise">
+            <div class="section-bg">
+                <img src="images/technology-bg.jpg" alt="Technology Background" class="section-image">
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tag">NOS EXPERTISES</div>
+                    <h2 class="section-title">Des services adaptés à vos besoins</h2>
+                    <p class="section-description">
+                        De la stratégie à l'exécution, nous vous accompagnons à chaque étape de votre transformation numérique.
+                    </p>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Cybersécurité</h3>
+                        <p class="service-description">
+                            Protection de vos données et infrastructures contre les menaces numériques.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                                <path d="M8 21h8m-4-4v4"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Développement Web</h3>
+                        <p class="service-description">
+                            Création de sites web modernes et applications sur mesure pour votre entreprise.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Cloud Computing</h3>
+                        <p class="service-description">
+                            Migration et optimisation de vos infrastructures vers le cloud.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M12 1v6m0 6v6m11-7h-6m-6 0H1"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Conseil Stratégique</h3>
+                        <p class="service-description">
+                            Accompagnement dans votre transformation digitale et stratégie IT.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+                                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Maintenance & Support</h3>
+                        <p class="service-description">
+                            Support technique réactif et maintenance préventive pour garantir la continuité de vos services.
+                        </p>
+                    </div>
+                    
+                    <div class="service-card fade-in-on-scroll">
+                        <div class="service-icon">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Transformation Digitale</h3>
+                        <p class="service-description">
+                            Accompagnement complet dans votre transition numérique pour moderniser vos processus et outils.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-us">
+            <div class="section-bg">
+                <img src="images/consulting-bg.jpg" alt="Consulting Background" class="section-image">
+            </div>
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="text-content">
+                        <div class="section-tag">POURQUOI NOUS CHOISIR</div>
+                        <h2 class="section-title">L'expertise au service de votre succès</h2>
+                        <p class="section-description">
+                            Depuis plus de 15 ans, nous accompagnons les entreprises dans leur transformation digitale avec une approche personnalisée et une expertise technique pointue.
+                        </p>
+                    </div>
+                    <div class="stats-cards">
+                        <div class="stat-card-alt">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-text">Projets livrés à temps</div>
+                        </div>
+                        <div class="stat-card-alt">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-text">Experts certifiés</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us - Advantages Section -->
+        <section class="why-choose-us-advantages">
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="advantages-list">
+                        <ul>
+                            <li>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                Équipe d'experts certifiés et passionnés
+                            </li>
+                            <li>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                Méthodologies agiles et éprouvées
+                            </li>
+                            <li>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                Accompagnement sur mesure et réactif
+                            </li>
+                            <li>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                Veille technologique permanente
+                            </li>
+                        </ul>
+                        <a href="expertise.html" class="btn-primary">Découvrir notre expertise →</a>
+                    </div>
+                    <div class="stats-cards">
+                        <div class="stat-card-alt">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-text">Support disponible</div>
+                        </div>
+                        <div class="stat-card-alt">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-text">Ans d'expérience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Prêt à transformer votre entreprise ?</h2>
+                    <p>Contactez-nous dès aujourd'hui pour discuter de vos projets et découvrir comment nous pouvons vous aider.</p>
+                    <a href="contact.html" class="btn-secondary-light">Demander un devis gratuit →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="MS Consulting" class="logo-svg">
+                    </div>
+                    <p>Votre partenaire de confiance pour la transformation digitale et le conseil en systèmes d'information. Expertise, innovation et excellence.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="expertise.html">Expertise</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-services">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li><a href="services.html#conseil">Conseil en SI</a></li>
+                        <li><a href="services.html#developpement">Développement logiciel</a></li>
+                        <li><a href="services.html#securite">Sécurité informatique</a></li>
+                        <li><a href="services.html#maintenance">Maintenance & support</a></li>
+                        <li><a href="services.html#transformation">Transformation digitale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <span>Plateau, BP 12345<br>Dakar, Sénégal</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span>+221 33 820 00 00</span>
+                    </div>
+                    <div class="contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span>contact@msconsulting.fr</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 MSConsulting. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="mentions-legales.html">Mentions légales</a>
+                    <a href="politique-confidentialite.html">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+        
+        mobileMenuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            mobileNavOverlay.classList.toggle('active');
+            document.body.style.overflow = mobileNav.classList.contains('active') ? 'hidden' : '';
+        });
+        
+        mobileNavOverlay.addEventListener('click', function() {
+            mobileMenuToggle.classList.remove('active');
+            mobileNav.classList.remove('active');
+            mobileNavOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        // Close mobile nav when clicking on links
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-links a');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenuToggle.classList.remove('active');
+                mobileNav.classList.remove('active');
+                mobileNavOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+
+        // Scroll Animations with IntersectionObserver
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements with animation classes
+        const animatedElements = document.querySelectorAll('.fade-in-on-scroll, .scale-in-on-scroll, .slide-left-on-scroll, .slide-right-on-scroll');
+        animatedElements.forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

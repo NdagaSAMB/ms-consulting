@@ -1,0 +1,452 @@
+/* Expertise Page Styles */
+
+/* Expertise Hero Section */
+.expertise-hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 120px 50px 50px;
+    background: #0B3D91;
+    color: #FFFFFF;
+}
+
+.expertise-hero .hero-content {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    max-width: 900px;
+}
+
+.expertise-hero .tagline {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(30, 144, 255, 0.1);
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(30, 144, 255, 0.3);
+}
+
+.expertise-hero .tagline-dot {
+    width: 8px;
+    height: 8px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.expertise-hero .tagline-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.expertise-hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    color: #FFFFFF;
+}
+
+.expertise-hero .highlight {
+    color: #1E90FF;
+}
+
+.expertise-hero .hero-description {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Expertise Areas Section */
+.expertise-areas {
+    background: #FFFFFF;
+    padding: 120px 0;
+    color: #0B3D91;
+}
+
+.expertise-areas h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #0B3D91;
+    text-align: center;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.expertise-card {
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.expertise-card:hover {
+    background: #FFFFFF;
+    border-color: rgba(30, 144, 255, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(11, 61, 145, 0.15);
+}
+
+.expertise-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(30, 144, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    border: 2px solid rgba(30, 144, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.expertise-card:hover .expertise-icon {
+    background: rgba(30, 144, 255, 0.2);
+    border-color: rgba(30, 144, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.expertise-icon svg {
+    color: #1E90FF;
+    width: 40px;
+    height: 40px;
+}
+
+.expertise-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0B3D91;
+}
+
+.expertise-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(11, 61, 145, 0.8);
+    margin-bottom: 25px;
+}
+
+.expertise-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.expertise-card li {
+    font-size: 14px;
+    color: rgba(11, 61, 145, 0.7);
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.expertise-card li::before {
+    content: '•';
+    color: #1E90FF;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Technologies Section */
+.technologies-section {
+    background: #0B3D91;
+    padding: 100px 0;
+    color: #FFFFFF;
+}
+
+.technologies-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tech-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tech-category {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tech-category h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tech-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tech-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.tech-level {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.tech-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #1E90FF, #0B3D91);
+    border-radius: 4px;
+    transition: width 1s ease;
+}
+
+/* Process Section */
+.process-section {
+    background: #F5F5F5;
+    padding: 100px 0;
+    color: #0B3D91;
+}
+
+.process-section h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #0B3D91;
+    text-align: center;
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.process-step {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.process-step:hover {
+    border-color: rgba(30, 144, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(11, 61, 145, 0.1);
+}
+
+.step-number {
+    width: 60px;
+    height: 60px;
+    background: #1E90FF;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.step-content h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #0B3D91;
+}
+
+.step-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(11, 61, 145, 0.8);
+}
+
+/* CTA Section */
+.cta-section {
+    background: #0B3D91;
+    padding: 100px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cta-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.cta-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.btn-primary {
+    background: #1E90FF;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-primary:hover {
+    background: #0B3D91;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(30, 144, 255, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .expertise-hero {
+        min-height: 60vh;
+        padding: 0 20px;
+    }
+    
+    .expertise-hero h1 {
+        font-size: 42px;
+    }
+    
+    .expertise-hero .hero-description {
+        font-size: 18px;
+    }
+    
+    .expertise-areas {
+        padding: 80px 0;
+    }
+    
+    .expertise-areas h2,
+    .technologies-section h2,
+    .process-section h2,
+    .cta-content h2 {
+        font-size: 32px;
+    }
+    
+    .expertise-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .expertise-card {
+        padding: 30px 25px;
+    }
+    
+    .tech-categories {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .tech-category {
+        padding: 30px 25px;
+    }
+    
+    .process-steps {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 0 20px;
+    }
+    
+    .process-step {
+        padding: 25px;
+    }
+    
+    .step-number {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .technologies-section,
+    .process-section,
+    .cta-section {
+        padding: 80px 0;
+    }
+    
+    .cta-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .expertise-hero h1 {
+        font-size: 36px;
+    }
+    
+    .expertise-card {
+        padding: 25px 20px;
+    }
+    
+    .tech-category {
+        padding: 25px 20px;
+    }
+    
+    .process-step {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .step-number {
+        margin: 0 auto;
+    }
+}
