@@ -1,0 +1,10 @@
+<svg width="180" height="40" viewBox="0 0 180 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Square -->
+  <rect x="0" y="0" width="40" height="40" rx="8" fill="#1e3a8a"/>
+  
+  <!-- MS Text in Square -->
+  <text x="20" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">MS</text>
+  
+  <!-- Consulting Text -->
+  <text x="48" y="28" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Consulting</text>
+</svg>
